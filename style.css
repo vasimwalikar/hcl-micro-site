@@ -1,0 +1,109 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+		.navbar {
+		  margin-bottom: 0;
+		  border-radius: 0;
+		}
+
+		.jumbotron {
+			background-color: #eee;
+			color: inherit;
+			margin-bottom: 0;
+			padding-bottom: 0px;
+			padding-top: 0px;
+		}
+			
+			/* Add a gray background color and some padding to the footer */
+			footer {
+			  background-color: #E92126;
+			  color:#fff;
+			}
+			* {
+			box-sizing: border-box;
+		}
+
+		/* Create three columns of equal width */
+
+		.columns {
+			float: left;
+			width: 60%;
+			padding: 8px;
+			margin-left: 20%;
+			margin-top:20px;
+		}
+
+		/* Style the list */
+		.price {
+			list-style-type: none;
+			border: 3px solid #eee;
+			margin: 0;
+			padding: 0;
+			-webkit-transition: 0.3s;
+			transition: 0.3s;
+		}
+
+		/* Add shadows on hover */
+		.price:hover {
+			box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+		}
+
+		/* Pricing header */
+		.price .header {
+			background-color: #8e8e8e;
+			color: #fff;
+			font-size: 16px;
+			font-family: Arial;
+			border-bottom: solid 1px #fff;
+		}
+
+		/* Pricing header */
+		.price .orange {
+			background-color: #8e8e8e;
+			color: #fff;
+			font-size: 16px;
+		}
+
+		/* List items */
+		.price li {
+			border-bottom: 1px solid #eee;
+			padding: 10px;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		/* Grey list item */
+		.price .grey {
+			border-bottom: 3px solid #eee;
+			background-color: #fff;
+			font-size: 12px;
+		}
+
+		/* The "Sign Up" button */
+		.button {
+			background-color: #4CAF50;
+			border: none;
+			color: white;
+			padding: 10px 25px;
+			text-align: center;
+			text-decoration: none;
+			font-size: 14px;
+		}
+		.button:hover {
+			box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+			background-color: #81c785;
+			cursor:pointer;
+		}
+
+		form{
+
+			background-color: #fff; 
+			margin-top: 20px;
+			padding: 10px;
+		}
+
+		/* Change the width of the three columns to 100%
+		(to stack horizontally on small screens) */
+		@media only screen and (max-width: 600px) {
+			.columns {
+				width: 100%;
+			}
+		}

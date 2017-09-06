@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>HCL</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+    	.btn_hcl{
+    		margin-right: 25%;
+    		float: right;
+    	}
+	</style>
+	<script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      	ga('create', 'UA-29459013-2', 'none');
+        ga('send', 'pageview', location.pathname);
+
+		$(document).on('click', 'a', function(e) {
+            logClick("Navigation  clicked on "+$(this).attr('href')+"");
+            ga('send', 'event', 'Navigation', $(this).attr('href'), 'First Screen');
+
+      	});
+
+
+  </script>
+</head>
+<body>
+
+
+
+	<div class="jumbotron col-sm-12" style="background-color: #fff;">
+	  
+		<div class="container col-sm-6 text-left">
+			<img src="assets/hcl.png" width="200" style="margin-left:15%">
+			<img src="assets/library_on_demand.jpg" width="110" style="margin-left:2%">
+		</div>
+		<div class="container col-sm-6 text-right" style="padding-top: 2%; margin-left: -10%">
+			<p style="font-size: 13px;
+    font-weight: 200;
+    margin-bottom: -10px;">Powered By</p>
+			<a href="http://justbooks.in"><img src="assets/logo.svg" width="200"></a>
+		</div>
+	</div>
+	<div class="col-sm-12 fluid text-center" style="background-color: #DEDEDE;">
+		<div>
+			<h3 style="color: rgb(90, 128, 168); margin-top: 10px;"><b>AN EXCLUSIVE HCL OFFER!</b></h3>
+		</div>
+		
+	</div>
+
+	<div class="col-sm-12">
+		<div class="columns">
+			<ul class="price">
+				<li class="header">1 Book Plan</li>
+				<li class="orange">Free delivery to office! Twice a month!</li>
+
+				<li class="grey">
+					3 Months Rs. 450/-
+					<a href="https://www.justbooks.in/signupCorp?planname=HCLCORP&books=1&months=3&branch_id=362" class="btn btn-xs btn-danger btn_hcl">Sign Up</a>
+				</li>
+				<li class="grey">
+					6 Months Rs. 900/-
+					<a href="https://www.justbooks.in/signupCorp?planname=HCLCORP&books=1&months=6&branch_id=362" class="btn btn-xs btn-danger btn_hcl">Sign Up</a>
+				</li>
+				<li class="grey">
+					12 Months Rs. 1200/-
+					<a href="https://www.justbooks.in/signupCorp?planname=HCLCORP&books=1&months=12&branch_id=362" class="btn btn-xs btn-danger btn_hcl">Sign Up</a>
+				</li>
+			</ul>
+		</div> 
+
+		<div class="columns">
+			<ul class="price">
+				<li class="header">2 Books Plan</li>
+				<li class="orange">Free delivery to office! Twice a month!</li>
+
+				<li class="grey">
+					3 Months Rs. 900/-
+					<a href="https://www.justbooks.in/signupCorp?planname=HCLCORP&books=2&months=3&branch_id=362" class="btn btn-xs btn-danger btn_hcl">Sign Up</a>
+				</li>
+				<li class="grey">
+					6 Months Rs. 1800/-
+					<a href="https://www.justbooks.in/signupCorp?planname=HCLCORP&books=2&months=6&branch_id=362" class="btn btn-xs btn-danger btn_hcl">Sign Up</a>
+				</li>
+				<li class="grey">
+					12 Months Rs. 2800/-
+					<a href="https://www.justbooks.in/signupCorp?planname=HCLCORP&books=2&months=12&branch_id=362" class="btn btn-xs btn-danger btn_hcl">Sign Up</a>
+				</li>
+			</ul>
+		</div>
+		
+	</div>
+	<div class="container-fluid bg-3 text-center">    
+	 	<script type="text/javascript">
+	 		function traffic_source_data(){
+
+	 			var building = $('#building').val();
+	 			var company_name = $('#company_name').val();
+
+	 			// alert('http://justbooksclc.com/web_signups/rate_new?num_books=2&utm_source=justbooks&utm_medium=website&utm_campaign=new_landing&traffic_source=ind_'+building+'_'+company_name+'&promo_code=INDI&skip_details=true&num_months=12&virtual_branch_id=1008');
+
+	 			 window.location.href = 'http://justbooksclc.com/web_signups/rate_new?num_books=2&utm_source=justbooks&utm_medium=website&utm_campaign=new_landing&traffic_source=ind_'+building+'_'+company_name+'&promo_code=INDI&skip_details=true&num_months=12&virtual_branch_id=1008';
+	 		}
+	 	</script>
+	</div><br>
+
+
+
+	<!--<footer class="container-fluid text-center">
+	  <h2>Justbooksclc.com</h2>
+	</footer>-->
+	
+</body>
+</html>
